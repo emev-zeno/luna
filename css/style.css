@@ -14,18 +14,18 @@ h1 {
   font-size: 2em;
   margin-bottom: 10px;
   text-align: center;
-  color: navy;
+  color: teal;
 }
 
 .authors, .affiliation {
   font-size: 1em;
-  color: navy;
+  color: teal;
   text-align: center;
 }
 
 .authors a {
   text-decoration: none;
-  color: #007acc;
+  color: teal;
 }
 
 .buttons {
