@@ -14,18 +14,18 @@ h1 {
   font-size: 2em;
   margin-bottom: 10px;
   text-align: center;
-  color: teal;
+  color: #1b9aaa;
 }
 
 .authors, .affiliation {
   font-size: 1em;
-  color: teal;
+  color: #1b9aaa;
   text-align: center;
 }
 
 .authors a {
   text-decoration: none;
-  color: teal;
+  color: #1b9aaa;
 }
 
 .buttons {
@@ -34,7 +34,7 @@ h1 {
 }
 
 .buttons button {
-  background-color: teal;
+  background-color: #1b9aaa;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -172,7 +172,7 @@ h2 {
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background-color: #0078d7; /* blue */
+  background-color: #1b9aaa; /* blue */
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s ease;
