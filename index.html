@@ -3,127 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LUNA</title>
+  <title>IntentFuse</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>LUNA: Low-Light Robust Panoptic Lifting for Adverse Robotic 3D Scene Perception</h1>
+    <h1>IntentFuse: Language-Guided 3D Scene Understanding via Prompt Filtering and Fusion</h1>
     <p class="authors">
       <a href="#">Ahalya Ravendran</a>, 
-      <a href="#">Leo Lebrat</a>, 
-      <a href="#">Rodrigo Santa Cruz</a>, 
-      <a href="#">Hu Zhang</a>, 
+      <a href="#">Madhawa Perera</a>, 
+      <a href="#">Feng Xu</a>, 
       <a href="#">Lars Petersson</a>, 
       <a href="#">Dadong Wang</a>, 
-      <a href="#">Xun Li</a>
+      <a href="#">Xun Li</a>, 
     </p>
-    <p class="affiliation">CSIRO Data61</p>
+    <p class="affiliation">
+      CSIRO Data61
+    </p>
     <div class="buttons">
-      <a href="https://ieeexplore.ieee.org/xpl/conhome/1001512/all-proceedings" class="btn" target="_blank">📄 Paper</a>
-      <a href="https://github.com/emev-zeno/luna/" class="btn" target="_blank">💻 Code</a>
+      <button>Paper</button>
+      <button>arXiv</button>
+      <button>Video</button>
+      <button>Code</button>
+    </div>
+
+    <h2>Test</h2>
+    <div class="gif-container">
+      <img src="images/lerf-desk.gif" alt="LERF Desk Demo" class="demo-gif">
+      <img src="images/intent-desk.gif" alt="Intent Desk Demo" class="demo-gif">
     </div>
   </header>
-
-  <!-- Abstract -->
-  <section id="abstract">
-    <h2 class="section-title">Abstract</h2>
-    <p class="abstract-text">
-      LUNA is a geometry-aware framework that enhances 3D panoptic perception in low-light, noisy, and blurred environments. By leveraging depth and adaptive multitask optimization, it achieves more robust segmentation and reconstruction than existing methods.
-
-  <!-- Methodology -->
-  <section id="method">
-    <h2 class="section-title">Methodology</h2>
-    <div class="method-block">
-      <img src="images/pipeline.png" alt="Pipeline Figure" class="pipeline-img">
-      <p class="method-text">
-        <b>IntentFuse Query Engine overview.</b> The Query Evaluator extracts key roles from natural language, the Context Provider resolves ambiguities using scene priors, and the structured output is passed to the LERF engine for precise 3D grounding.
-      </p>
-    </div>
-  </section>
-
-  <!-- Experiments -->
-  <section id="experiments">
-    <h2 class="section-title">Experiments</h2>
-
-    <!-- Affordance Query -->
-    <div class="experiment-block">
-      <h3 class="exp-title">Affordance Query</h3>
-      <p class="query-caption">"Something to tell time"</p>
-      <div class="gif-container">
-        <figure>
-          <img src="images/lerf-clock.gif" alt="LERF Negation">
-          <figcaption>LERF</figcaption>
-        </figure>
-        <figure>
-          <img src="images/intent-clock.gif" alt="Ours Negation">
-          <figcaption>Ours</figcaption>
-        </figure>
-      </div>
-    </div>
-
-        <!-- Negation Query -->
-    <div class="experiment-block">
-      <h3 class="exp-title">Descriptive Query</h3>
-      <p class="query-caption">"Something wooden, unlike a soft toy."</p>
-      <div class="gif-container">
-        <figure>
-          <img src="images/lerf-table.gif" alt="LERF Desk">
-          <figcaption>LERF</figcaption>
-        </figure>
-        <figure>
-          <img src="images/intent-table.gif" alt="Ours Desk">
-          <figcaption>Ours</figcaption>
-        </figure>
-      </div>
-    </div>
-
-      <!-- Descriptive Query -->
-    <div class="experiment-block">
-      <h3 class="exp-title">Descriptive Query</h3>
-      <p class="query-caption">"Decorative pillow with tree silhouette in cream and brown."</p>
-      <div class="gif-container">
-        <figure>
-          <img src="images/lerf-pillow.gif" alt="LERF Affordance">
-          <figcaption>LERF</figcaption>
-        </figure>
-        <figure>
-          <img src="images/intent-pillow.gif" alt="Ours Affordance">
-          <figcaption>Ours</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-      <!-- Affordance Query -->
-    <div class="experiment-block">
-      <h3 class="exp-title">Object-only Query</h3>
-      <p class="query-caption">"Desk lamp"</p>
-      <div class="gif-container">
-        <figure>
-          <img src="images/lerf-lamp.gif" alt="LERF Affordance">
-          <figcaption>LERF</figcaption>
-        </figure>
-        <figure>
-          <img src="images/intent-lamp.gif" alt="Ours Affordance">
-          <figcaption>Ours</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- BibTeX -->
-  <section id="bibtex">
-    <h2 class="section-title">BibTeX</h2>
-    <pre class="bibtex-block">
-@article{ravendran2025intentfuse,
-  title={IntentFuse: Language-Guided 3D Scene Understanding via Prompt Filtering and Fusion},
-  author={Ravendran, Ahalya and Perera, Madhawa and Xu, Feng and Petersson, Lars and Wang, Dadong and Li, Xun},
-  journal={International Conference on Digital Image Computing: Techniques and Applications},
-  year={2025}
-}
-    </pre>
-  </section>
 
   <script src="js/script.js"></script>
 </body>
