@@ -19,13 +19,13 @@ h1 {
 
 .authors, .affiliation {
   font-size: 1em;
-  color: #1b9aaa;
+  color: #333;
   text-align: center;
 }
 
 .authors a {
   text-decoration: none;
-  color: #1b9aaa;
+  color: #333;
 }
 
 .buttons {
