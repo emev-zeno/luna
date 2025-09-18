@@ -34,7 +34,7 @@ h1 {
 }
 
 .buttons button {
-  background-color: #CC7722;
+  background-color: #8B4513;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -112,7 +112,7 @@ h2 {
 .section-title {
   font-size: 2em;
   margin: 40px 0 20px 0;
-  color: #1b9aaa; /* greenish-blue */
+  color: #8B4513; /* greenish-blue */
   text-align: center;
 }
 
@@ -172,7 +172,7 @@ h2 {
   font-size: 16px;
   font-weight: 600;
   color: white;
-  background-color: #1b9aaa; /* blue */
+  background-color: #8B4513; /* blue */
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s ease;
