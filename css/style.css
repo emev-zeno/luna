@@ -152,6 +152,10 @@ h2 {
   text-align: justify; /* captions centered */
 }
 
+.recommendations-text ul li {
+  text-align: justify;
+}
+
 .bibtex-block {
   background: #f4f4f4;
   padding: 15px;
