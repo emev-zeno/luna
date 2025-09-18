@@ -87,22 +87,28 @@
     </div>
   </section>
 
-      <!-- Affordance Query -->
-    <div class="experiment-block">
-      <h3 class="exp-title">Recommendations for Robotic Deployment</h3>
-      <p class="query-caption">"Test"</p>
-      <div class="gif-container">
-        <figure>
-          <img src="images/lerf-lamp.gif" alt="LERF Affordance">
-          <figcaption>LERF</figcaption>
-        </figure>
-        <figure>
-          <img src="images/intent-lamp.gif" alt="Ours Affordance">
-          <figcaption>Ours</figcaption>
-        </figure>
-      </div>
+  <!-- Recommendations Section -->
+<section>
+  <div class="experiment-block">
+    <h3 class="exp-title">Recommendations for Robotic Deployment</h3>
+    <p class="query-caption">Guidelines for selecting imaging strategies under varying operational conditions.</p>
+    
+    <div class="gif-container">
+      <figure>
+        <img src="images/considers.png" alt="Robotic Imaging Recommendations">
+        <figcaption>Overview of imaging strategies across different conditions</figcaption>
+      </figure>
     </div>
-  </section>
+
+    <div class="recommendations-text">
+      <p><b>Static / Slow Platforms:</b> Use long exposures to improve SNR. Deblurring outperforms denoising for inspection or exploration tasks.</p>
+      <p><b>Dynamic Environments:</b> Opt for high ISO with short exposures to reduce blur. Prioritize depth sensors at higher frame rates to maintain geometric consistency.</p>
+      <p><b>Highly Degraded Conditions:</b> Rely on geometry-aware supervision over denoising. Depth supervision recovers global structure and object boundaries more effectively.</p>
+      <p><b>Computational Considerations:</b> For resource-limited robots, depth-augmented semantic prediction offers a lightweight, efficient alternative to full geometry-aware supervision.</p>
+    </div>
+  </div>
+</section>
+
 
   <!-- BibTeX -->
   <section id="bibtex">
