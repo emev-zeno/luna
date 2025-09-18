@@ -14,18 +14,18 @@ h1 {
   font-size: 2em;
   margin-bottom: 10px;
   text-align: center;
-  color: #1b9aaa;
+  color: #8B4513;
 }
 
 .authors, .affiliation {
   font-size: 1em;
-  color: #333;
+  color: #8B4513;
   text-align: center;
 }
 
 .authors a {
   text-decoration: none;
-  color: #333;
+  color: #8B4513;
 }
 
 .buttons {
@@ -34,7 +34,7 @@ h1 {
 }
 
 .buttons button {
-  background-color: #1b9aaa;
+  background-color: #EFE1D6;
   color: white;
   border: none;
   padding: 8px 14px;
@@ -70,7 +70,7 @@ figcaption {
 h2 {
   font-size: 1.5em;
   margin-top: 30px;
-  color: #222;
+  color: #8B4513;;
   text-align: center; /* section headings centered */
 }
 
