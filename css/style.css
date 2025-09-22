@@ -85,8 +85,7 @@ h2 {
 .gif-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;  /* wraps neatly on smaller screens */
+  align-items: center;
   gap: 30px;
   margin: 20px 0;
 }
@@ -96,7 +95,7 @@ h2 {
 }
 
 .gif-container img {
-  max-width: 400px; /* adjust for your gif size */
+  max-width: 1000px;
   width: 100%;
   height: auto;
   border-radius: 6px;
