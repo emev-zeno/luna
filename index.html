@@ -60,31 +60,27 @@
         <!-- Blur Query -->
     <div class="experiment-block">
       <h3 class="exp-title">Panoptic Segmentation under Strong Motion Blur</h3>
-      <div class="gif-container">
         <figure>
-          <img src="images/blur-pano.png" alt="Pano Blur">
-          <figcaption>Panoptic Lifting</figcaption>
+          <img src="images/blur-pano.png" alt="Pano Blur" class="pano-noise-img">>
+          <figcaption>Baseline struggles in blur with unclear segmentation and depth.</figcaption>
         </figure>
         <figure>
-          <img src="images/blur-ours.png" alt="Ours Blur">
-          <figcaption>Ours</figcaption>
+          <img src="images/blur-ours.png" alt="Ours Blur" class="ours-noise-img">>
+          <figcaption>Sharper, reliable outputs across all tasks despite blur</figcaption>
         </figure>
-      </div>
     </div>
 
       <!-- Descriptive Query -->
     <div class="experiment-block">
       <h3 class="exp-title">Panoptic Segmentation under Strong Gaussian Noise</h3>
-      <div class="gif-container">
         <figure>
           <img src="images/noise-pano.png" alt="Pano Noise">
-          <figcaption>Panoptic Lifting</figcaption>
+          <figcaption>Baseline degrades under noise across tasks</figcaption>
         </figure>
         <figure>
           <img src="images/noise-ours.png" alt="Ours Noise">
-          <figcaption>Ours</figcaption>
+          <figcaption>Consistent performance: semantics, instances, and depth remain robust in noise.</figcaption>
         </figure>
-      </div>
     </div>
   </section>
 
