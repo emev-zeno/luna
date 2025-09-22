@@ -84,6 +84,7 @@ h2 {
 
 .gif-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;  /* wraps neatly on smaller screens */
   gap: 30px;
